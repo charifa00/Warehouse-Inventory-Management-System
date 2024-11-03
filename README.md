@@ -16,7 +16,10 @@ If products needed to be sorted by name, and by ID in cases of identical names, 
 *Tracking shipments with timestamps: To record shipments with a timestamp, a LinkedHashMap could be used to store each received product with its timestamp as either the key or value (depending on the needs). Another option would be to create a ShipmentEntry class containing a product and a timestamp, then store each shipment as a ShipmentEntry object in an ArrayList.
 
 
-              *&*****************************************************Data Structure Choices and Implementation****************************************************
-HashMap<Integer, Product>: Used to store products by ID for quick access.
-ArrayList for daily shipments: Records products in arrival order.
-TreeSet for sorting by name: Maintains a set of products sorted alphabetically.
+Data Structure Choices and Implementation:
+
+-HashMap<Integer, Product>: Used to store products by ID for quick access.
+
+-ArrayList for daily shipments: Records products in arrival order.
+
+-TreeSet for sorting by name: Maintains a set of products sorted alphabetically.
